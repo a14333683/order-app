@@ -47,10 +47,10 @@ const Header = () => {
           <div className="col-lg-6">
             <nav className="header__menu">
               <ul>
-                <li className="active"><a href="./index.html">首頁</a></li>
-                <li><a href="./index.html">餐廳</a></li>
+                <li className="active"><Link to='/'>首頁</Link></li>
+                <li><Link to='/restaurant'>餐廳</Link></li>
                 <li><Link to='/login'>登入</Link></li>
-                <li><a href="./blog.html">註冊</a></li>
+                <li><Link to='/register'>註冊</Link></li>
                 <li><a href="./contact.html">登出</a></li>
                 <li className='merchant_login'><button link="http://www.google.com"> 商家登入 </button></li>
                 <li className='admin_login'><button href="http://www.google.com"> 管理者登入 </button></li>
